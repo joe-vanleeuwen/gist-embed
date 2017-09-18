@@ -9,14 +9,13 @@
     <script type="text/javascript" src="./script.js"></script>
     <!-- an example -->
     <script type="text/javascript">
-      function createGist(gist, language) {
-        var el = document.createElement("div")
-        el.dataset["gist"] = gist
-        el.dataset["language"] = language
-        return el
-      }
-      // appending gist
-      document.body.appendChild(createGist("1b70f6572277e5795fe0badee8759d64", "scala"))
-    </script>
+    function createGist(gist, language) {
+  var el = document.createElement("div")
+  el.dataset["gist"] = gist
+  return el
+}
+// appending gist
+document.body.appendChild(createGist("1b70f6572277e5795fe0badee8759d64"))
+</script>
   </body>
 </html>
